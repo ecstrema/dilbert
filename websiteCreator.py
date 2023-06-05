@@ -28,20 +28,20 @@ html = f"""
       color: black;
     }}
 
+    h1:hover {{
+      text-decoration: underline;
+      cursor: pointer;
+    }}
+
     @media (prefers-color-scheme: dark) {{
       body {{
-        background-color: rbg(20 20 30);
+        background-color: rgb(20 20 30);
         color: white;
       }}
 
       a {{
         color: white;
       }}
-    }}
-
-    h1:hover {{
-      text-decoration: underline;
-      cursor: pointer;
     }}
   </style>
 
