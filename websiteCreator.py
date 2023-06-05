@@ -44,7 +44,7 @@ html = f"""
 </head>
 <body>
 {
-    "".join([f'''<a href="#{d["date"]}">)
+    "".join([f'''<a href="#{d["date"]}">
 <h1 id="{d["date"]}">{d["date"]}</h1>
 <img alt="" data-src="{d["img_src"]}" loading="lazy">
 </a>''' for d in data])
