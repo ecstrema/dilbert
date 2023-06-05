@@ -13,6 +13,11 @@ html = f"""
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Simple Dilbert viewer</title>
+  <link rel="icon" type="image/png"
+      href="https://web.archive.org/web/20230313000426im_/https://dilbert.com/assets/packs/images/favicon/favicon-96x96-a0f26560c9b6b16718286105ece26211.png"
+      sizes="96x96">
+  <meta name="keywords" content="dilbert, dilbert comic strip, dilbert comic viewer, comics, web comics">
+  <meta name="description" content="Deadly simple Dilbert viewer">
   <style>
     * {{
       text-align: center;
